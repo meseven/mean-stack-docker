@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+  angular:
+    build: angular-client
+    ports:
+      - "4200:4200"
+    volumes:
+      - ./angular-client/:/var/www/app
+
+  express:
+    build: express-server
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./express-server/:/var/www/app
+
+  database:
+    image: mongo
+    ports:
+      - "27017:27017"
