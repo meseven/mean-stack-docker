@@ -14,6 +14,8 @@ services:
       - "3000:3000"
     volumes:
       - ./express-server/:/var/www/app
+    links:
+      - database
 
   database:
     image: mongo

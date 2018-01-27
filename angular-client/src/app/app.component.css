@@ -1,0 +1,20 @@
+*{
+	font-family: Arial
+}
+
+a{
+	color:#000;
+	text-decoration: none;
+	font-weight: 600;
+	font-size:13px;
+}
+
+.info{
+	margin-bottom:25px;
+}
+
+.logo{
+	width:30px;
+	vertical-align: middle;
+	margin-left:20px;
+}
