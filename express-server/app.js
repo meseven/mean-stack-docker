@@ -11,6 +11,15 @@ var users = require('./routes/users');
 
 var app = express();
 
+// Connect to mongodb
+var mongoURI = 'mongodb://database/my-db';
+mongoose.connect(mongoURI, function(err){
+	if (err)
+		console.log('db connection err');
+
+	console.log('mongodb: connected');
+});
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
