@@ -5,8 +5,20 @@ Please install [Docker](https://docs.docker.com/install/#supported-platforms) an
 
 ```sh
 $ cd mean-stack-docker
+```
+
+#### Angular Client
+```sh
 $ cd angular-client && npm install
-$ cd .. && npm install
+```
+
+#### Express Server
+```sh
+$ cd express-server && npm install
+```
+
+```sh
+$ cd mean-stack-docker
 $ docker-compose up
 ```
 
