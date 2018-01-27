@@ -14,4 +14,8 @@ $ docker-compose up
 #### Express Server
 [http://localhost:3000](http://localhost:3000)
 
+
+[![mean stack](https://mehmetseven.net/content/images/2018/01/mean-stack-angular-client.png)]()
+
 enjoy!
+
