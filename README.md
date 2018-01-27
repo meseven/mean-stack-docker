@@ -5,6 +5,8 @@ Please install [Docker](https://docs.docker.com/install/#supported-platforms) an
 
 ```sh
 $ cd mean-stack-docker
+$ cd angular-client && npm install
+$ cd .. && npm install
 $ docker-compose up
 ```
 
@@ -15,7 +17,7 @@ $ docker-compose up
 [http://localhost:3000](http://localhost:3000)
 
 
-[![mean stack](https://mehmetseven.net/content/images/2018/01/mean-stack-angular-client.png)]()
+[![mean stack](https://mehmetseven.net/content/images/2018/01/mean-stack-angular-client.png)](https://mehmetseven.net/mean-stack-docker)
 
-enjoy!
+Turkish blog post [here](https://mehmetseven.net/mean-stack-docker)
 
