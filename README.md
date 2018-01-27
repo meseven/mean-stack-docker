@@ -33,5 +33,6 @@ $ docker-compose up
 
 [![mean stack](https://mehmetseven.net/content/images/2018/01/mean-stack-angular-client.png)](https://mehmetseven.net/mean-stack-docker)
 
-Turkish blog post [here](https://mehmetseven.net/mean-stack-docker)
+Turkish blog post [here](https://mehmetseven.net/mean-stack-docker).
+enjoy!
 
