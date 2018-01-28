@@ -1,4 +1,7 @@
 # Docker MEAN Stack
+
+[![mean stack](https://mehmetseven.net/content/images/2018/01/mehmet-seven-docker-1.jpg)](https://mehmetseven.net/mean-stack-docker)
+
 Please install [Docker](https://docs.docker.com/install/#supported-platforms) and [Docker Compose](https://docs.docker.com/compose/install/)
 
 ### 1.Installation
